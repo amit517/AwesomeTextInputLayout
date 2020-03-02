@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:borderColor="#5300e8"
+        app:borderWidth="2dp"
+        app:cornerRadius="8dp"
+        android:padding="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+    </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+    <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:borderColor="#5300e8"
+        app:borderWidth="2dp"
+        app:cornerRadius="8dp"
+        android:padding="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age" />
+
+
+    </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+
+
+
+
+</LinearLayout>
